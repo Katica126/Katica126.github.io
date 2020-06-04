@@ -1,0 +1,140 @@
+body {
+  margin: 0px;
+  background-color: hsla(89, 43%, 51%, 0.3);
+}
+a {
+  color: white;
+  background: #222;
+  border: none;
+  padding: 0px 0px;
+  width: 60px;
+  height: 30px;
+  font-family: Josefin Sans;
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.buttons {
+  background-color: #222;
+  height: 58px;
+  width: 1000px;
+}
+.buttons a {
+  float: left;
+  width: 193px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+.buttons a:hover {
+  background-color: green;
+  color: black;
+}
+img {
+  margin: 0px 31px;
+  border-radius: 55px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.name {
+  position: absolute;
+  border-radius: 55px;
+  top: 280px;
+  left: 285px;
+  text-align: justify;
+  font-family: Abril Fatface;
+  color: #222;
+  background: ;
+}
+.kat {
+  font-family: Abril Fatface;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first {
+  display: flex;
+  position: relative;
+  width: 70%;
+  margin: 20px 20px 60px 0;
+}
+.second {
+  display: flex;
+  position: relative;
+  width: 70%;
+  margin: 20px 20px 60px 0;
+}
+.third {
+  display: flex;
+  position: relative;
+  width: 70%;
+  margin: 20px 20px 60px 0;
+}
+.fourth {
+  display: flex;
+  position: relative;
+  width: 70%;
+  margin: 20px 20px 60px 0;
+}
+.leader {
+  font-family: Josefin Sans;
+  display: inline;
+  margin: 30px;
+  max-width: 900px;
+}
+
+#no-limit {
+  max-width: 200px;
+  max-height: auto;
+  border-radius: 55px;
+  background: rgb(130, 130, 130, 0.4);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  color: white;
+}
+blockquote {
+  font-family: Abril Fatface;
+  margin-bottom: 60px;
+}
+
+blockquote h1 {
+  font-size: 45px;
+}
+
+blockquote h1:before {
+  content: open-quote;
+  font-weight: bold;
+  font-size: 100px;
+  color: white;
+}
+#topsign {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(130, 130, 130, 0.5);
+  border-radius: 50%;
+  color: white;
+  font-size: 50px;
+  font-family: Abril Fatface;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  scroll-behavior: smooth;
+}
+#topsign:hover {
+  background-color: green;
+}
+
+#active {
+  background: none;
+  margin: 28px;
+}
