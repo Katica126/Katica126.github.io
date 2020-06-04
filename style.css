@@ -17,11 +17,11 @@ a {
 .buttons {
   background-color: #222;
   height: 58px;
-  width: 1000px;
+  width: 100%;
 }
 .buttons a {
   float: left;
-  width: 193px;
+  width: 25%;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -42,8 +42,8 @@ img {
 .name {
   position: absolute;
   border-radius: 55px;
-  top: 280px;
-  left: 285px;
+  top: 200px;
+  left: 350px;
   text-align: justify;
   font-family: Abril Fatface;
   color: #222;
@@ -61,25 +61,25 @@ section {
 .first {
   display: flex;
   position: relative;
-  width: 70%;
+  width: 80%;
   margin: 20px 20px 60px 0;
 }
 .second {
   display: flex;
   position: relative;
-  width: 70%;
+  width: 80%;
   margin: 20px 20px 60px 0;
 }
 .third {
   display: flex;
   position: relative;
-  width: 70%;
+  width: 80%;
   margin: 20px 20px 60px 0;
 }
 .fourth {
   display: flex;
   position: relative;
-  width: 70%;
+  width: 80%;
   margin: 20px 20px 60px 0;
 }
 .leader {
@@ -102,6 +102,14 @@ section {
 blockquote {
   font-family: Abril Fatface;
   margin-bottom: 60px;
+  max-width: 200px;
+  max-height: auto;
+  border-radius: 55px;
+  background: rgb(130, 130, 130, 0.4);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  color: white;
 }
 
 blockquote h1 {
