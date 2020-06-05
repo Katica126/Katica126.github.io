@@ -1,141 +1,164 @@
 
 body {
-  margin: 0px;
+  margin: 0;
   background-color: hsla(89, 43%, 51%, 0.3);
 }
-.active {
-  color: white;
-  background: #222;
-  border: none;
-  padding: 0px 0px;
-  width: 60px;
-  height: 30px;
-  font-family: Josefin Sans;
-  font-size: 25px;
-  cursor: pointer;
-  text-decoration: none;
+
+h1,
+h2,
+blockquote {
+  font-family: "Abril Fatface", cursive;
 }
-.buttons {
-  background-color: #222;
-  height: 58px;
-  width: 1000px;
+
+h3,
+h4,
+p,
+a,
+li {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.5;
 }
-.buttons a {
-  float: left;
-  width: 193px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 19px;
+
+h4 {
+  font-size: 18px;
+  margin: 0px;
 }
-.buttons a:hover {
-  background-color: green;
-  color: black;
+
+h5 {
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  margin: 0;
 }
-img {
-  margin: 0px 31px;
-  border-radius: 55px;
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-}
-.name {
-  position: absolute;
-  border-radius: 55px;
-  top: 280px;
-  left: 285px;
-  text-align: justify;
-  font-family: Abril Fatface;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li {
   color: #222;
-  background: ;
 }
-.kat {
-  font-family: Abril Fatface;
-}
-
-section {
-  display: flex;
-  justify-content: space-between;
+a {
+  color: green;
+  font-size: 25px;
+  padding: 0px 28px;
+  text-decoration: none;
 }
 
-.first {
-  display: flex;
-  position: relative;
-  width: 70%;
-  margin: 20px 20px 60px 0;
-}
-.second {
-  display: flex;
-  position: relative;
-  width: 70%;
-  margin: 20px 20px 60px 0;
-}
-.third {
-  display: flex;
-  position: relative;
-  width: 70%;
-  margin: 20px 20px 60px 0;
-}
-.fourth {
-  display: flex;
-  position: relative;
-  width: 70%;
-  margin: 20px 20px 60px 0;
-}
-.leader {
-  font-family: Josefin Sans;
-  display: inline;
-  margin: 30px;
-  max-width: 900px;
+.class:hover {
+  color: green;
+  font-size: 25px;
+  padding: 0px 28px;
+  text-decoration: none;
 }
 
-#no-limit {
-  max-width: 200px;
-  max-height: auto;
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0px auto 80px auto;
+  width: 700px;
+  height: 80px;
+  background-color: black;
+  z-index: 9;
+}
+
+#body {
+  display: flex;
+  width: 700px;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+aside {
+  width: 40%;
+  height: auto;
+  background-color: white;
+  z-index: 2;
+}
+
+#pic {
+  height: 400px;
+  background: url("https://cdn.pixabay.com/photo/2015/07/15/11/53/hiker-846094_960_720.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+#kati1 {
+  font-family: "Abril Fatface";
+  font-size: 25px;
+  margin-bottom: 0px;
+  padding: 250px 0px 0px 30px;
+  color: white;
+}
+
+#kati2 {
+  font-family: "Abril Fatface";
+  font-size: 34px;
+  margin-top: 0;
+  padding: 0px 0px 0px 70px;
+  color: white;
+}
+
+blockquote {
+  width: 100%;
+  margin: 15px 0 0 0;
+  background-color: #222;
+  color: white;
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  padding: 30px 10px 130px 45px;
+  box-sizing: border-box;
+  line-height: 4em;
   border-radius: 55px;
   background: rgb(130, 130, 130, 0.4);
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  color: white;
-}
-blockquote {
-  font-family: Abril Fatface;
-  margin-bottom: 60px;
 }
 
-blockquote h1 {
-  font-size: 45px;
+blockquote::before {
+  content: "\201C";
+  position: absolute;
+  font-size: 120px;
+  color: white;
+  padding-top: 20px;
+  left: 0px;
+  top: 0px;
 }
 
-blockquote h1:before {
-  content: open-quote;
-  font-weight: bold;
-  font-size: 100px;
-  color: white;
+main {
+  width: 60%;
+  height: auto;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 0px 10px;
+}
+
+#intro {
+  font-size: 18px;
 }
 #topsign {
   height: 100px;
   width: 100px;
   background-color: rgb(130, 130, 130, 0.5);
   border-radius: 50%;
-  color: white;
   font-size: 50px;
   font-family: Abril Fatface;
   display: flex;
   align-items: center;
   position: fixed;
   bottom: 10px;
-  right: 10px;
+  right: 20px;
   cursor: pointer;
   scroll-behavior: smooth;
 }
 #topsign:hover {
-  background-color: green;
-}
-
-#active {
-  background: none;
-  margin: 28px;
+  background-color: #222;
 }
