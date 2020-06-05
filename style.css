@@ -1,3 +1,8 @@
+* {
+  margim: 0;
+  padding: 0;
+}
+
 body {
   margin: 0px;
   background-color: hsla(89, 43%, 51%, 0.3);
